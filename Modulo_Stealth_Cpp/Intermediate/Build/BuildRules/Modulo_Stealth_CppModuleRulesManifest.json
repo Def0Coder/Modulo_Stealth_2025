@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Progetti Unreal\\PrimoModulo2025\\Modulo_Stealth_2025\\Modulo_Stealth_Cpp\\Source\\Modulo_Stealth_Cpp\\Modulo_Stealth_Cpp.Build.cs",
+		"D:\\Progetti Unreal\\PrimoModulo2025\\Modulo_Stealth_2025\\Modulo_Stealth_Cpp\\Source\\Modulo_Stealth_Cpp.Target.cs",
+		"D:\\Progetti Unreal\\PrimoModulo2025\\Modulo_Stealth_2025\\Modulo_Stealth_Cpp\\Source\\Modulo_Stealth_CppEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Modulo_Stealth_Cpp",
+			"Path": "..\\Source\\Modulo_Stealth_Cpp.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Modulo_Stealth_CppEditor",
+			"Path": "..\\Source\\Modulo_Stealth_CppEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
