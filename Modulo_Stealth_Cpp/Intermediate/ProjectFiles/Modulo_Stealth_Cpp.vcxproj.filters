@@ -11,6 +11,7 @@
     <None Include="..\..\Source\Modulo_Stealth_CppEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -32,6 +33,18 @@
     <Filter Include="Source\Modulo_Stealth_Cpp">
       <UniqueIdentifier>{E0CD1F36-BF24-318D-B108-B293CBFF94FC}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Modulo_Stealth_Cpp\AI_Guard.cpp">
+      <Filter>Source\Modulo_Stealth_Cpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Modulo_Stealth_Cpp\AI_Guard.h">
+      <Filter>Source\Modulo_Stealth_Cpp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Modulo_Stealth_Cpp\AI_Guards.cpp">
+      <Filter>Source\Modulo_Stealth_Cpp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Modulo_Stealth_Cpp\AI_Guards.h">
+      <Filter>Source\Modulo_Stealth_Cpp</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Modulo_Stealth_Cpp\Modulo_Stealth_Cpp.Build.cs">
       <Filter>Source\Modulo_Stealth_Cpp</Filter>
     </None>

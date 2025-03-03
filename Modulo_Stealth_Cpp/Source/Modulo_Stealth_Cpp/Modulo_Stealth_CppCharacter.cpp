@@ -5,6 +5,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "InputActionValue.h"
+#include "Animation/AnimInstance.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -15,12 +16,12 @@ AModulo_Stealth_CppCharacter::AModulo_Stealth_CppCharacter()
 
 	// Permettiamo la rotazione del personaggio in base alla camera
 	bUseControllerRotationYaw = false;
-	GetCharacterMovement()->bOrientRotationToMovement = true; // Il personaggio segue la direzione del movimento
+	GetCharacterMovement()->bOrientRotationToMovement = true;
 
 	// Creiamo la Spring Arm (Camera Boom)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 300.0f; // Lunghezza standard
+	CameraBoom->TargetArmLength = 300.0f;
 	CameraBoom->bUsePawnControlRotation = true;
 
 	// Creiamo la Camera
@@ -46,11 +47,6 @@ void AModulo_Stealth_CppCharacter::BeginPlay()
 		if (Subsystem && DefaultMappingContext)
 		{
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
-			UE_LOG(LogTemplateCharacter, Warning, TEXT("Mapping Context Caricato Correttamente"));
-		}
-		else
-		{
-			UE_LOG(LogTemplateCharacter, Error, TEXT("Mapping Context NON caricato!"));
 		}
 	}
 }
@@ -85,15 +81,12 @@ void AModulo_Stealth_CppCharacter::Move(const FInputActionValue& Value)
 
 	if (Controller)
 	{
-		// Otteniamo la rotazione della camera
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0); // Ignoriamo Pitch e Roll
+		FRotator Rotation = Controller->GetControlRotation();
+		FRotator YawRotation(0, Rotation.Yaw, 0);
 
-		// Determiniamo la direzione in avanti e laterale
-		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
-		// Applichiamo il movimento
 		AddMovementInput(ForwardDirection, MovementVector.Y);
 		AddMovementInput(RightDirection, MovementVector.X);
 	}
@@ -121,5 +114,17 @@ void AModulo_Stealth_CppCharacter::HandleCrouch(const FInputActionValue& Value)
 		UnCrouch();
 		CameraBoom->TargetArmLength = DefaultSpringArmLength;
 		GetCharacterMovement()->MaxWalkSpeed = DefaultWalkSpeed;
+	}
+
+	UpdateAnimationState();
+}
+
+void AModulo_Stealth_CppCharacter::UpdateAnimationState()
+{
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	if (AnimInstance)
+	{
+		// Aggiorniamo la variabile nell'Animation Blueprint
+		AnimInstance->SetBoolParameter(FName("bIsCrouching"), GetCharacterMovement()->IsCrouching());
 	}
 }

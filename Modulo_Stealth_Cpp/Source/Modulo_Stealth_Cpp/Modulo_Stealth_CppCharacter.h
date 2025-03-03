@@ -11,6 +11,7 @@ class UCameraComponent;
 class UInputMappingContext;
 class UInputAction;
 struct FInputActionValue;
+class UAnimInstance;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
@@ -76,18 +77,12 @@ protected:
 	/** Funzione per gestire il crouch */
 	void HandleCrouch(const FInputActionValue& Value);
 
+	/** Aggiorna lo stato dell'animazione */
+	void UpdateAnimationState();
+
 protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void BeginPlay() override;
-
-public:
-	/** Ritorna il Camera Boom */
-	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
-
-	/** Ritorna la Follow Camera */
-	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 };
-
-
 
 

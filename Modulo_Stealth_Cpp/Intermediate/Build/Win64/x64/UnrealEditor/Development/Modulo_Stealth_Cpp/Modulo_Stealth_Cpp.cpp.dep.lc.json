@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\source\\modulo_stealth_cpp\\modulo_stealth_cpp.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\intermediate\\build\\win64\\x64\\modulo_stealth_cppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\modulo_stealth_cpp\\definitions.modulo_stealth_cpp.h",
+            "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\source\\modulo_stealth_cpp\\modulo_stealth_cpp.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

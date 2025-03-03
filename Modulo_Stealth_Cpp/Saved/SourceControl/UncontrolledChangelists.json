@@ -8,7 +8,17 @@
 				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/ThirdPerson/Input/Actions/IA_Crouch.uasset",
 				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/ThirdPerson/Input/IMC_Default.uasset",
-				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/Animations/Alpha_Body_MAT.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/Animations/Alpha_Joints_MAT.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/Animations/Crouching_Idle_Skin.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/Animations/Crouching_Idle_Skin_Anim_mixamo_com.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/Animations/Crouching_Idle_Skin_Anim_Take_001.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/Animations/Crouching_Idle_Skin_PhysicsAsset.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/Animations/Crouching_Idle_Skin_Skeleton.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/M3/Q0JWD6WPAPME4MYYJHCGY3.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/4N/15UR768J0DUWQF2G2ROC2J.uasset"
 			]
 		}
 	]
