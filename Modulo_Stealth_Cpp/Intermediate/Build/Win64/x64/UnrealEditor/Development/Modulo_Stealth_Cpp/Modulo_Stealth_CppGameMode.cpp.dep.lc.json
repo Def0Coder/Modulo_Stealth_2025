@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\source\\modulo_stealth_cpp\\modulo_stealth_cppgamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\intermediate\\build\\win64\\x64\\modulo_stealth_cppeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\modulo_stealth_cpp\\definitions.modulo_stealth_cpp.h",
+            "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\source\\modulo_stealth_cpp\\modulo_stealth_cppgamemode.h",
+            "d:\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\intermediate\\build\\win64\\unrealeditor\\inc\\modulo_stealth_cpp\\uht\\modulo_stealth_cppgamemode.generated.h",
+            "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\source\\modulo_stealth_cpp\\modulo_stealth_cppcharacter.h",
+            "d:\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\epic games\\ue_5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\progetti unreal\\primomodulo2025\\modulo_stealth_2025\\modulo_stealth_cpp\\intermediate\\build\\win64\\unrealeditor\\inc\\modulo_stealth_cpp\\uht\\modulo_stealth_cppcharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

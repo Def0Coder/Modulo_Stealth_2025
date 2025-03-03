@@ -5,7 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Changelist non controllate predefinite",
 			"files": [
-				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/ThirdPerson/Input/Actions/IA_Crouch.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"D:/Progetti Unreal/PrimoModulo2025/Modulo_Stealth_2025/Modulo_Stealth_Cpp/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
 		}
 	]
